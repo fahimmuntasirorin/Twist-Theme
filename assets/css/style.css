@@ -8,11 +8,48 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: var(--body-font-color);
 }
+h1{
+    font-size: 80px;
+    line-height: 65px;
+}
+h2{
+    font-size: 36px;
+    line-height: 48px;
+}
+h3{
+    font-size: 24px;
+    line-height: 60px;
+}
+h4{
+    font-size: 18px;
+    line-height: 48px;
+}
+h5{
 
+}
+h6{
+
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 :root{
     --primary-color:#095dc7;
     --secondary-color:#85af4b;
     --body-font-color: #666666;
-    
+
 }
+
+/* ===== header top ===== */
