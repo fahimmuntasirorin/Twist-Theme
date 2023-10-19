@@ -3,53 +3,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
 
 /* ====== basic css======= */
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: var(--body-font-color);
 }
-h1{
+
+h1 {
     font-size: 80px;
     line-height: 65px;
 }
-h2{
+
+h2 {
     font-size: 36px;
     line-height: 48px;
 }
-h3{
+
+h3 {
     font-size: 24px;
     line-height: 60px;
 }
-h4{
+
+h4 {
     font-size: 18px;
     line-height: 48px;
 }
-h5{
 
-}
-h6{
+h5 {}
 
-}
-p{
+h6 {}
+
+p {
     font-size: 16px;
     line-height: 28px;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-:root{
-    --primary-color:#095dc7;
-    --secondary-color:#85af4b;
+
+:root {
+    --primary-color: #095dc7;
+    --secondary-color: #85af4b;
     --body-font-color: #666666;
 
 }
 
 /* ===== header top ===== */
+
+.header-top {
+    background-color: var(--primary-color);
+}
+
+.header-top {
+    padding: 20px 0px 20px;
+}
+
+.header-top a {
+    color: #fff;
+}
+
+.header-top-icon a {
+    margin-right: 20px;
+    transition: .3s;
+}
+
+.header-top-icon a:hover {
+    color: var(--secondary-color);
+}
+
+
+.header-top-content a i {
+    margin-right: 15px;
+}
+
+.header-top-content a {
+    margin-right: 30px;
+}
+
+.header-top-content a:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.header-area{
+    padding: 32px 0px 32px;
+}
+
+.header-area .navbar-brand {
+  border: 3px solid var(--primary-color);
+  padding: 10px 30px;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.header-area .navbar-nav li {
+  margin-right: 40px;
+  position: relative;
+  transition: .3s;
+}
+.header-area .navbar-nav li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    transition: .3s;
+}
+
+.header-area .navbar-nav li:hover::after{
+    width: 100%;
+}
+
+.header-area .navbar-nav li:nth-last-child(1) {
+  margin-right: 0px;
+}
+.header-area .navbar-nav li:nth-last-child(1):hover::after {
+    width: 0%;
+}
