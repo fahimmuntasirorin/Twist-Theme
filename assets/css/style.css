@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 65px;
 }
 
@@ -49,6 +49,32 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.banner-btn {
+    text-align: center;
+}
+
+.primary-btn {
+    color: #fff;
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+
+.border-btn {
+    color: #fff;
+    padding: 18px 33px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.primary-btn:hover,
+.border-btn:hover {
+    color: #fff;
+    background-color: #333;
+    transition: .3s;
 }
 
 :root {
@@ -94,22 +120,23 @@ ul {
     margin-right: 0px;
 }
 
-.header-area{
+.header-area {
     padding: 32px 0px 32px;
 }
 
 .header-area .navbar-brand {
-  border: 3px solid var(--primary-color);
-  padding: 10px 30px;
-  color: var(--secondary-color);
-  font-weight: 700;
+    border: 3px solid var(--primary-color);
+    padding: 10px 30px;
+    color: var(--secondary-color);
+    font-weight: 700;
 }
 
 .header-area .navbar-nav li {
-  margin-right: 40px;
-  position: relative;
-  transition: .3s;
+    margin-right: 40px;
+    position: relative;
+    transition: .3s;
 }
+
 .header-area .navbar-nav li::after {
     content: "";
     position: absolute;
@@ -121,13 +148,52 @@ ul {
     transition: .3s;
 }
 
-.header-area .navbar-nav li:hover::after{
+.header-area .navbar-nav li:hover::after {
     width: 100%;
 }
 
 .header-area .navbar-nav li:nth-last-child(1) {
-  margin-right: 0px;
+    margin-right: 0px;
 }
+
 .header-area .navbar-nav li:nth-last-child(1):hover::after {
     width: 0%;
+}
+
+
+.banner-area {
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    padding-top: 280px;
+    padding-bottom: 260px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    opacity: .8;
+    z-index: -1;
+}
+
+
+.banner-area h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 77px;
+}
+
+.banner-area p {
+    padding-bottom: 74px;
+}
+
+.banner-btn {
+    text-align: center;
 }
