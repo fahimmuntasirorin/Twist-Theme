@@ -315,3 +315,40 @@ ul {
 .single-counter h2 {
     color: #111111;
 }
+
+
+.faq-area {
+    padding: 120px 0px 120px;
+    color: #111111;
+}
+
+.faq-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-about h2 {
+    padding-bottom: 47px;
+}
+
+
+.faq-accordion h2 {
+    padding-bottom: 47px;
+    color: #111111;
+}
+
+
+.faq-accordion h2 {
+    padding-bottom: 47px;
+    color: #111111;
+}
+
+.accordion-button {
+    border: none !important;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
