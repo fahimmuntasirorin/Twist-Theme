@@ -197,3 +197,37 @@ ul {
 .banner-btn {
     text-align: center;
 }
+
+/* service section */
+
+.service-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.service-right p {
+    position: relative;
+}
+
+.service-right p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    height: 100%;
+    width: 3px;
+    background-color: var(--primary-color);
+}
+
+.service-row {
+    padding-top: 80px;
+}
+.single-service {
+    text-align: center;
+}
+.single-service a i {
+    font-size: 50px;
+}
+.single-service h3 {
+    color: #111111;
+}
