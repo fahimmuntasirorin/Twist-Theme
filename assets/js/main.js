@@ -4,4 +4,13 @@ $(document).ready(function () {
         delay: 10,
         time: 1000
     });
+    // magnific popup 
+    $('.project-img').magnificPopup({
+        type: 'image',
+
+        gallery: {
+            enabled: true
+        }
+
+    });
 });

@@ -352,3 +352,98 @@ ul {
     border: none;
     border-bottom: 1px solid #eee;
 }
+
+/* cta css */
+
+/* Inline #6 | http://127.0.0.1:5500/index.html */
+
+.cta-area {
+    padding: 120px 0px 120px;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.cta-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    opacity: .8;
+    z-index: -1;
+}
+
+.cta-content h2 {
+    padding-bottom: 37px;
+}
+
+.cta-content p {
+    padding-bottom: 24px;
+}
+
+/* project section */
+
+
+.project-area {
+    padding: 120px 0px 120px;
+}
+
+.project-area h3 {
+    text-align: center;
+    color: #111111;
+}
+
+.single-project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #333;
+    opacity: .7;
+    transition: .3s;
+}
+
+.project-hover a {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.single-project:hover .project-hover a {
+    visibility: visible;
+    opacity: 1;
+}
+
+.single-project:hover .project-hover {
+    width: 100%;
+}
+
+
+.single-project {
+    height: 335px;
+    width: 100%;
+}
+
+.single-project img {
+    height: 100%;
+}
