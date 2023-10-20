@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    $('.banner-main-area').slick({
-        
+    // counter up 
+    $('.project-counter').counterUp({
+        delay: 10,
+        time: 1000
     });
 });

@@ -31,9 +31,15 @@ h4 {
     line-height: 48px;
 }
 
-h5 {}
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
 
-h6 {}
+h6 {
+    font-size: 12px;
+    line-height: 20px;
+}
 
 p {
     font-size: 16px;
@@ -222,12 +228,90 @@ ul {
 .service-row {
     padding-top: 80px;
 }
+
 .single-service {
     text-align: center;
 }
+
 .single-service a i {
     font-size: 50px;
 }
+
 .single-service h3 {
+    color: #111111;
+}
+
+/* about section start */
+
+
+
+.about-area {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f8fafc;
+}
+
+
+.about-content {
+    color: #111111;
+    text-transform: capitalize;
+}
+
+
+.about-content h2 {
+    color: #111111;
+    padding-bottom: 42px;
+}
+
+.about-content p {
+    padding-bottom: 24px;
+}
+
+.about-content a {
+    padding: 20px 35px;
+    background-color: #e6e6e6;
+    border-radius: 50px;
+    color: var(--primary-color);
+    position: relative;
+    transition: .3s;
+    overflow: hidden;
+    z-index: 2;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.about-content a:hover {
+    color: #fff;
+}
+
+.about-content a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: -1;
+    transition: .3s;
+}
+
+.about-content a:hover::after {
+    height: 100%;
+}
+
+
+.counter-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f8fafc;
+}
+
+.single-counter {
+    text-align: center;
+}
+
+.single-counter h2 {
     color: #111111;
 }
