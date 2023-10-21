@@ -67,8 +67,9 @@ ul {
     z-index: 999;
     right: 0;
     background-color: #fff;
-    padding: 10px 0px 10px;
+    padding: 0px 0px 0px;
     transition: .3s;
+    border: 1px solid #eee;
 }
 
 
@@ -723,4 +724,48 @@ ul {
 
 .footer-bottom {
     padding: 35px 0px 35px;
+}
+
+/* about page */
+
+/* Inline #7 | http://127.0.0.1:5500/about.html */
+
+.breadcrumb-area {
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0px 160px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.breadcrumb-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    opacity: .8;
+    z-index: -1;
+}
+
+.breadcrumb-area ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-area ul li {
+    margin-right: 10px;
+}
+
+.breadcrumb-area ul li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.header-area.sticky {
+    /* padding: 10px 0px 10px; */
+    padding: 0px 0px 0px;
 }
