@@ -502,6 +502,7 @@ ul {
 
 .slick-dots .slick-active {
     background-color: var(--secondary-color);
+<<<<<<< HEAD
 }
 
 /* blog css */
@@ -556,3 +557,6 @@ ul {
     height: 80px;
 }
 
+=======
+}
+>>>>>>> 31a05cdeb18162a1172b5c2b4b9bd357201873a6

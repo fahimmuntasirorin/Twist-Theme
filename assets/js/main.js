@@ -20,6 +20,7 @@ $(document).ready(function () {
         autoplay:true,
         autoplaySpeed: 1000,
     });
+<<<<<<< HEAD
     // client slider
     $('.clients').slick({
         arrows: false,
@@ -29,4 +30,6 @@ $(document).ready(function () {
         slidesToShow:4
     });
     // orinhossain
+=======
+>>>>>>> 31a05cdeb18162a1172b5c2b4b9bd357201873a6
 });
