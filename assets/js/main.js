@@ -40,5 +40,8 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
         slidesToShow:4
     });
-    // orinhossain
+    // about popup video
+    $('.video-popup').magnificPopup({
+        type: 'iframe',
+    });
 })

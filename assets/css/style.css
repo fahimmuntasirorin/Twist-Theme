@@ -769,3 +769,42 @@ ul {
     /* padding: 10px 0px 10px; */
     padding: 0px 0px 0px;
 }
+
+
+/* Inline #7 | http://127.0.0.1:5500/about.html */
+
+.about-video-popup {
+    position: relative;
+    z-index: 2;
+}
+
+.about-video-popup a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.about-video-popup::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    opacity: .8;
+}
+
+.about-video-popup a {
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid #eeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
