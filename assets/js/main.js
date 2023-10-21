@@ -13,4 +13,11 @@ $(document).ready(function () {
         }
 
     });
+    // testimonial slider
+    $('.testimonial-slider').slick({
+        arrows: false,
+        dots: true,
+        autoplay:true,
+        autoplaySpeed: 1000,
+    });
 });
