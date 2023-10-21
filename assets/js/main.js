@@ -1,3 +1,15 @@
+
+// sticky menu
+$(window).load(()=>{
+    $(window).on('scroll',function(){
+        if($(this).scrollTop() > 20){
+            $('.header-area').addClass('sticky')
+        }else{
+            $('.header-area').removeClass('sticky')
+        }
+    })
+})
+
 $(document).ready(function () {
     // counter up 
     $('.project-counter').counterUp({

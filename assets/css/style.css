@@ -57,6 +57,23 @@ ul {
     list-style: none;
 }
 
+
+/* Inline #7 | http://127.0.0.1:5500/index.html# */
+
+.header-area.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    right: 0;
+    background-color: #fff;
+    padding: 10px 0px 10px;
+    transition: .3s;
+}
+
+
+/* banner css */
+
 .banner-btn {
     text-align: center;
 }
@@ -425,8 +442,17 @@ ul {
     visibility: hidden;
     opacity: 0;
     transition: .3s;
-    border: 1px solid #eee;
     padding: 15px;
+}
+
+.project-hover a i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .single-project:hover .project-hover a {
@@ -540,9 +566,6 @@ ul {
 }
 
 /* client css */
-
-/* Inline #7 | http://127.0.0.1:5500/index.html */
-
 
 .clients-area {
     padding: 70px 0px 70px;
@@ -687,6 +710,7 @@ ul {
     margin: 0;
     text-transform: uppercase;
 }
+
 .footer-bottom-nav {
     display: flex;
     justify-content: space-evenly;
