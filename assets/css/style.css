@@ -558,3 +558,145 @@ ul {
     width: 80px;
     height: 80px;
 }
+
+/* footer section */
+
+.footer-area {
+    padding: 90px 0px 90px;
+    background-color: #02295a;
+    color: #fff;
+}
+
+.footer-social ul {
+    display: flex;
+}
+
+.footer-social ul li {
+    margin-right: 10px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-social ul li:nth-child(1) {
+    background-color: #365493;
+    border-radius: 50%;
+}
+
+.footer-social ul li:nth-child(2) {
+    background-color: #33ccff;
+    border-radius: 50%;
+}
+
+.footer-social ul li:nth-child(3) {
+    background-color: #d44132;
+    border-radius: 50%;
+}
+
+.footer-social ul li:nth-child(4) {
+    background-color: #cb2027;
+    border-radius: 50%;
+}
+
+.contact-us ul li {
+    margin-top: 30px;
+}
+
+.useful-links p {
+    padding-bottom: 10px;
+}
+
+.useful-links ul li {
+    padding-top: 15px;
+}
+
+.useful-links p {
+    padding-bottom: 10px;
+}
+
+.useful-links ul li {
+    padding-top: 15px;
+}
+
+.latest-news ul li img {
+    height: 70px;
+    width: 70px;
+}
+
+.latest-news ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.latest-news ul li h5 {
+    margin-left: 20px;
+}
+
+.latest-news p {
+    padding-bottom: 14px;
+}
+
+.footer-form {
+    overflow: hidden;
+}
+
+.footer-form input {
+    padding: 20px 0px 20px;
+    text-align: center;
+    background-color: #003f8d;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.footer-form button {
+    padding: 20px 0px 20px;
+    width: 100%;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #001b3d;
+    color: #fff;
+}
+
+
+.footer-bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom-content h5 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.footer-bottom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-bottom-nav li {
+    margin-left: 20px;
+}
+
+.footer-bottom {
+    padding: 35px 0px 35px;
+}
