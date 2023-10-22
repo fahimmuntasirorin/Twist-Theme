@@ -862,11 +862,134 @@ ul {
 .contact-content textarea {
     border: 1px solid #e5e5e5;
     margin-bottom: 20px;
-    background:transparent;
+    background: transparent;
     padding: 15px;
 }
 
 .contact-area {
     padding: 120px 0px 120px;
     background-color: #f8fafc;
+}
+
+/* blog page */
+
+/* Inline #7 | http://127.0.0.1:5500/blogs.html */
+
+.blog-img {
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.blogs-left {
+    padding-bottom: 70px;
+}
+
+.blogs-left h2 {
+    color: #111111;
+    padding-top: 40px;
+}
+
+.blogs-meta {
+    border: 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px;
+}
+
+.blogs-meta-icon a {
+    color: #999999;
+}
+
+.blogs-meta-icon a i {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.blogs-meta-icon a {
+    margin-right: 25px;
+}
+
+.blogs-area {
+    padding: 70px 0px 70px;
+}
+
+/* Inline #7 | http://127.0.0.1:5500/blogs.html */
+
+.blog-title h3 {
+    color: #111111;
+    position: relative;
+}
+
+.blog-title h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 22%;
+    background-color: var(--primary-color);
+}
+
+
+
+.blog-right-form form input {
+    width: 100%;
+    padding: 20px 15px 20px;
+    border: 1px solid #eee;
+}
+
+.latest-news {
+    padding: 50px 0px 60px;
+}
+
+.popular-news {
+    display: flex;
+}
+
+.popular-news img {
+    height: 85px;
+    width: 100px;
+}
+
+.popular-news {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-content p {
+    margin: 0;
+}
+
+.popular-content {
+    margin-left: 20px;
+}
+
+.banner-ad img {
+    width: 300px;
+    height: 250px;
+}
+
+
+
+.blog-project-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-project-grid a img {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.blog-project-grid {
+    justify-content: space-between;
+}
+
+.banner-ad {
+    padding-bottom: 65px;
 }
