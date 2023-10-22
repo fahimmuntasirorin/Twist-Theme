@@ -932,8 +932,6 @@ ul {
     background-color: var(--primary-color);
 }
 
-
-
 .blog-right-form form input {
     width: 100%;
     padding: 20px 15px 20px;
@@ -971,8 +969,6 @@ ul {
     height: 250px;
 }
 
-
-
 .blog-project-grid {
     display: flex;
     flex-wrap: wrap;
@@ -992,4 +988,8 @@ ul {
 
 .banner-ad {
     padding-bottom: 65px;
+}
+
+.reply-area a {
+    margin-top: 30px;
 }
