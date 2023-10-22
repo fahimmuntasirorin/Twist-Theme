@@ -1,15 +1,16 @@
 
 // sticky menu
-$(window).load(()=>{
-    $(window).on('scroll',function(){
-        if($(this).scrollTop() > 20){
+$(window).load(() => {
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 20) {
             $('.header-area').addClass('sticky')
-        }else{
+        } else {
             $('.header-area').removeClass('sticky')
         }
     })
 })
 
+// isotope plugin
 $(document).ready(function () {
     // counter up 
     $('.project-counter').counterUp({
@@ -29,19 +30,30 @@ $(document).ready(function () {
     $('.testimonial-slider').slick({
         arrows: false,
         dots: true,
-        autoplay:true,
+        autoplay: true,
         autoplaySpeed: 1000,
     });
     // client slider
     $('.clients').slick({
         arrows: false,
         dots: false,
-        autoplay:true,
+        autoplay: true,
         autoplaySpeed: 1000,
-        slidesToShow:4
+        slidesToShow: 4
     });
     // about popup video
     $('.video-popup').magnificPopup({
         type: 'iframe',
     });
+    // isotope filtering
+    // init Isotope
+    var $grid = $('.project-items').isotope({
+        // options
+    });
+    // filter items on button click
+    $('.projects-menu').on('click', 'li', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
 })
