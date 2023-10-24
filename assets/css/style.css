@@ -1065,10 +1065,20 @@ ul {
 
 .post-pagination .next-post a span {
     text-transform: uppercase;
+    color: var(--secondary-color);
+}
+.post-pagination .next-post a span:hover {
+    color: var(--primary-color);
+    transition: .3s;
 }
 
 .post-pagination .prev-post a span {
     text-transform: uppercase;
+    color: var(--secondary-color);
+}
+.post-pagination .prev-post a span:hover {
+    color: var(--primary-color);
+    transition: .3s;
 }
 
 .post-pagination {
@@ -1259,7 +1269,7 @@ ul {
 }
 
 .blogs-tag a {
-    margin: 0px 10px;
+    margin: 20px 10px;
 }
 
 .blogs-tag a:nth-last-child(3) {

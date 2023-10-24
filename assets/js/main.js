@@ -10,6 +10,9 @@ $(window).load(() => {
     })
 })
 
+
+
+
 // isotope plugin
 $(document).ready(function () {
     // counter up 
