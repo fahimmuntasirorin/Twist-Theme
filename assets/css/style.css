@@ -1165,8 +1165,6 @@ ul {
     color: #111111;
 }
 
-/* Inline #7 | http://127.0.0.1:5500/single-blog.html */
-
 .blog-comment-btn {
     padding: 10px 30px;
     text-transform: uppercase;
@@ -1174,4 +1172,40 @@ ul {
     background-color: var(--secondary-color);
     margin-top: 20px;
     font-weight: 500;
+}
+
+.follow-social h3{
+    color: #111111;
+    position: relative;
+}
+.follow-social h3::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    height: 3px;
+    width: 20%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+}
+
+.follow-social a {
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    line-height: 50px;
+    font-size: 20px;
+    color: var(--secondary-color);
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.follow-social a:hover{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.follow-social a:nth-last-child(5) {
+    margin-left: 0px;
 }
