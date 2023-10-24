@@ -1174,11 +1174,12 @@ ul {
     font-weight: 500;
 }
 
-.follow-social h3{
+.follow-social h3 {
     color: #111111;
     position: relative;
 }
-.follow-social h3::after{
+
+.follow-social h3::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -1201,7 +1202,7 @@ ul {
     transition: .3s;
 }
 
-.follow-social a:hover{
+.follow-social a:hover {
     background-color: var(--secondary-color);
     color: #fff;
 }
@@ -1209,3 +1210,47 @@ ul {
 .follow-social a:nth-last-child(5) {
     margin-left: 0px;
 }
+
+
+/* Inline #7 | http://127.0.0.1:5500/single-blog.html */
+
+.single-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0px 10px;
+}
+
+.num-categories {
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.single-category a {
+    color: #111111;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.categories-area {
+    padding: 50px 0px 60px;
+}
+
+.categories-area h3 {
+    color: #111111;
+    position: relative;
+}
+
+.categories-area h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 2px;
+    width: 30%;
+    background-color: #111111;
+}
+
