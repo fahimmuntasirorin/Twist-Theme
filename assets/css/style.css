@@ -1257,3 +1257,11 @@ ul {
 .subscribe-area {
     padding-bottom: 60px;
 }
+
+.blogs-tag a {
+    margin: 0px 10px;
+}
+
+.blogs-tag a:nth-last-child(3) {
+    margin: 0px;
+}
