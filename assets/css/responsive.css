@@ -1,5 +1,4 @@
 @media only screen and (min-width:992px) and (max-width:1200px) {
-
     .banner-area {
         padding-top: 200px;
         padding-bottom: 200px;
@@ -24,8 +23,6 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    /* Inline #8 | http://127.0.0.1:5500/index.html */
-
     .header-top-icon {
         text-align: center;
     }
@@ -39,24 +36,19 @@
     }
 
     .header-area {
-        /* padding: 32px 0px 32px; */
         padding: 10px 0px 10px;
     }
 
     .banner-area h1 {
-        /* padding-bottom: 77px; */
         padding-bottom: 50px;
     }
 
     .banner-area {
-        /* padding-top: 280px; */
-        /* padding-bottom: 260px; */
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
     .service-right p::after {
-        /* left: -50px; */
         left: -20px;
     }
 
@@ -69,9 +61,6 @@
         font-size: 30px;
         padding-bottom: 10px;
     }
-
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
-
     .footer-bottom-content {
         flex-direction: column-reverse;
         gap: 25px 0px;
@@ -79,10 +68,8 @@
 
 }
 
-/* mobile layout */
+/* medium device or tablet layout */
 @media only screen and (max-width: 767px) {
-
-    /* Inline #8 | http://127.0.0.1:5500/index.html */
 
     .header-top-icon {
         text-align: center;
@@ -102,29 +89,21 @@
         font-size: 40px;
     }
 
-
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css?_cacheOverride=1698212764279 */
-
     .header-top-content a {
-        /* margin-right: 30px; */
         margin-right: 0px;
         margin: 5px 0px 5px;
     }
 
     .banner-area {
-        /* padding-top: 280px; */
-        /* padding-bottom: 260px; */
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
     .banner-area h1 {
-        /* padding-bottom: 77px; */
         padding-bottom: 30px;
     }
 
     .banner-area p {
-        /* padding-bottom: 74px; */
         padding-bottom: 30px;
     }
 
@@ -133,66 +112,44 @@
     }
 
     .about-area {
-        /* padding-top: 160px; */
-        /* padding-bottom: 160px; */
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
     .counter-area {
-        /* padding-top: 90px; */
-        /* padding-bottom: 90px; */
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
-
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
-
     .testimonial-area {
-        /* padding-top: 140px; */
-        /* padding-bottom: 125px; */
         padding-top: 50px;
         padding-bottom: 50px;
     }
 
     .single-testimonial h5 {
-        /* padding-top: 20px; */
-        /* padding-bottom: 80px; */
         padding-top: 5px;
         padding-bottom: 10px;
     }
 
     .single-testimonial h2 {
-        /* padding-bottom: 68px; */
         padding-bottom: 10px;
     }
 
     .single-testimonial p {
-        /* padding-bottom: 39px; */
         padding-bottom: 10px;
     }
 
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
-
     .faq-area {
-        /* padding: 120px 0px 120px; */
         padding: 100px 0px 100px;
     }
 
     .faq-about h2 {
-        /* padding-bottom: 47px; */
         padding-bottom: 20px;
     }
 
     .faq-accordion h2 {
-        /* padding-bottom: 47px; */
         padding-bottom: 30px;
         padding-top: 60px;
     }
-
-
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
 
     .footer-bottom-nav {
         flex-direction: column;
@@ -203,8 +160,6 @@
         text-align: center;
         padding-top: 20px;
     }
-
-    /* Inline #8 | http://127.0.0.1:5500/index.html */
 
     .footer-bottom-content h5 {
         padding-bottom: 35px;
@@ -217,19 +172,13 @@
 
     /* about page */
 
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
-
     .breadcrumb-area {
-        /* padding: 140px 0px 160px; */
         padding: 50px 0px 50px;
     }
 
     /* blog page */
-
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css */
-
     .blogs-meta {
-        /* align-items: center; */
+
         align-items: flex-start;
         flex-direction: column;
     }
@@ -238,8 +187,6 @@
         margin-right: 0px;
         margin: 10px 0px 10px;
     }
-
-    /* Inline #7 | http://127.0.0.1:5500/blogs.html */
 
     .blogs-meta-icon {
         display: flex;
@@ -269,7 +216,7 @@
     }
 
 }
-
+/* mobile devices */
 @media only screen and (max-width:410px) {
 
     .projects-menu {
@@ -277,7 +224,6 @@
     }
 
     .projects-menu li {
-        /* margin-right: 20px; */
         margin-right: 0px;
         padding: 10px 0px 10px;
     }
