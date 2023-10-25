@@ -57,6 +57,17 @@ ul {
     list-style: none;
 }
 
+/* preloader */
+#preloader{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/gnu-loader.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 999;
+}
 
 /* Inline #7 | http://127.0.0.1:5500/index.html# */
 

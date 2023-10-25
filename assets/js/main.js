@@ -1,3 +1,9 @@
+// preloader
+const preloaderX = document.getElementById('preloader');
+const bodyTag = document.getElementById('body')
+window.addEventListener('load',(function(){
+    preloaderX.style.display = "none"
+}))
 
 // sticky menu
 $(window).load(() => {

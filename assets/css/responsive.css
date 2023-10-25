@@ -272,8 +272,6 @@
 
 @media only screen and (max-width:410px) {
 
-    /* style.css | http://127.0.0.1:5500/assets/css/style.css?_cacheOverride=1698219675080 */
-
     .projects-menu {
         flex-direction: column;
     }
