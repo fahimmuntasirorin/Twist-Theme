@@ -9,10 +9,6 @@ $(window).load(() => {
         }
     })
 })
-
-
-
-
 // isotope plugin
 $(document).ready(function () {
     // counter up 
@@ -26,7 +22,8 @@ $(document).ready(function () {
 
         gallery: {
             enabled: true
-        }
+        },
+
 
     });
     // testimonial slider
@@ -42,7 +39,23 @@ $(document).ready(function () {
         dots: false,
         autoplay: true,
         autoplaySpeed: 1000,
-        slidesToShow: 4
+        slidesToShow: 4,
+        responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     });
     // about popup video
     $('.video-popup').magnificPopup({
@@ -59,7 +72,6 @@ $(document).ready(function () {
         $grid.isotope({ filter: filterValue });
     });
     // wow js
-
 })
 
 new WOW().init();
