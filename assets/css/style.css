@@ -826,6 +826,7 @@ ul {
 
 .projects-menu li {
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
 .projects-menu li:nth-last-child(1) {
