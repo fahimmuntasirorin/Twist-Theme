@@ -76,7 +76,13 @@ $(document).ready(function () {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
     });
-    // wow js
-})
+    
+    // filter active class
+    $('.projects-menu li').click(function(){
+        $('.projects-menu li').removeClass('filter-active');
+        $(this).addClass('filter-active')
+    })
 
+})
+// wow js
 new WOW().init();
