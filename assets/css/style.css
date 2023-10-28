@@ -222,6 +222,7 @@ ul {
     align-items: center;
     padding: 10px 20px;
     border-radius: 30px;
+    justify-content: center;
 }
 
 .search-box input {
@@ -754,6 +755,7 @@ ul {
 
 .footer-form form input {
     width: 100%;
+    outline: none;
 }
 
 .contact-us ul li a {
