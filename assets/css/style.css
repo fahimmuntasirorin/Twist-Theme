@@ -558,8 +558,6 @@ ul {
 
 /* active project menu */
 
-/* Inline #7 | http://127.0.0.1:5500/project.html# */
-
 .filter-active {
     color: var(--secondary-color);
     position: relative;
@@ -754,6 +752,23 @@ ul {
 
 }
 
+.footer-form form input {
+    width: 100%;
+}
+
+.contact-us ul li a {
+    color: #fff;
+}
+
+.useful-links ul li a {
+    color: #fff;
+}
+
+.footer-bottom-nav li a {
+    color: #fff;
+}
+
+
 .footer-social ul li:nth-child(1) {
     background-color: #365493;
     border-radius: 50%;
@@ -794,6 +809,11 @@ ul {
     padding-top: 15px;
 }
 
+.latest-news {
+    padding: 0px 0px 60px;
+}
+
+
 .latest-news ul li img {
     height: 70px;
     width: 70px;
@@ -811,6 +831,12 @@ ul {
     align-items: center;
     padding-bottom: 15px;
 }
+
+.latest-news ul li a {
+    display: flex;
+    color: #fff;
+}
+
 
 .latest-news ul li h5 {
     margin-left: 20px;
@@ -1128,9 +1154,6 @@ ul {
     border: 1px solid #eee;
 }
 
-.latest-news {
-    padding: 50px 0px 60px;
-}
 
 .popular-news {
     display: -webkit-box;
