@@ -213,6 +213,35 @@ ul {
     width: 0%;
 }
 
+/* search box added */
+
+/* Inline #8 | http://127.0.0.1:5500/index.html# */
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.search-box input {
+    width: 0px;
+    transition: .8s;
+    border: none;
+    outline: none;
+}
+
+.search-box:hover input {
+    width: 200px;
+}
+
+.search-box:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+/* banner area start */
 
 .banner-area {
     position: relative;

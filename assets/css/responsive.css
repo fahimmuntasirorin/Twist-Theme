@@ -61,6 +61,7 @@
         font-size: 30px;
         padding-bottom: 10px;
     }
+
     .footer-bottom-content {
         flex-direction: column-reverse;
         gap: 25px 0px;
@@ -70,6 +71,9 @@
 
 /* medium device or tablet layout */
 @media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center !important;
+    }
 
     .header-top-icon {
         text-align: center;
@@ -120,6 +124,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
     .testimonial-area {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -216,8 +221,12 @@
     }
 
 }
+
 /* mobile devices */
 @media only screen and (max-width:410px) {
+    .navbar-nav {
+        text-align: center !important;
+    }
 
     .projects-menu {
         flex-direction: column;
